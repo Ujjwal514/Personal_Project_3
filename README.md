@@ -21,3 +21,15 @@ What this project does?
 This project takes the parameters of an used car like: Company name, Model name, Year of Purchase, Fuel Type and Number of Kilometers it has been driven.
 It then predicts the possible price of the car. For example, the image below shows the predicted price of our Hyundai Grand i10.
 
+![predict (1)](https://github.com/user-attachments/assets/6486f67a-3658-46bc-97d3-39e7d50cb9c2)
+
+How this project does?
+
+1.First of all the data was scraped from Quikr.com (https://quikr.com) 
+
+2.The data was cleaned (it was super unclean :( ) and analysed.
+
+3.Then a Linear Regression model was built on top of it which had 0.92 R2_score.
+
+4.This project was given the form of an website built on Flask where we used the Linear Regression model to perform predictions.
+
